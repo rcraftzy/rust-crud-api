@@ -1,0 +1,23 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "ccc",
+  "email": "ccc@mail.com"
+}
+
+
+GET http://localhost:8080/users
+
+GET http://localhost:8080/users/2
+
+PUT http://localhost:8080/users/2
+Content-Type: application/json
+
+{
+  "name": "new",
+  "email": "new@mail.com"
+}
+
+
+DELETE http://localhost:8080/users/1
